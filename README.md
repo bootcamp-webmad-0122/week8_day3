@@ -1,4 +1,4 @@
-# Rutas protegidas
+# Rutas privadas
 - El componente `<Outlet/>` de React Router Dom permite retornar las rutas anidadas dentro de otra `<Route>`. 
 - De esta forma es posible crear un componente estratégico `PrivateRoute.jsx` mediante el que retornar el `<Outlet/>` del mismo según el estado de sesión del usuario:
 
