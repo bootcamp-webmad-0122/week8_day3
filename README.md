@@ -3,7 +3,7 @@
 - De esta forma es posible crear un componente estratégico `PrivateRoute.jsx` mediante el que retornar el `<Outlet/>` del mismo según el estado de sesión del usuario:
 
   ````javascript
-  const PrivateRoute() {
+  const PrivateRoute = () => {
 
     const { isLoggedIn, isLoading } = useContext(AuthContext)
 
